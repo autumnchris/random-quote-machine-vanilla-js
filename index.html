@@ -12,6 +12,31 @@
 </head>
 
 <body>
+  <div class="container-fluid text-center">
+    <!-- HEADER -->
+    <header>
+      <h1>Inspirational Quotes</h1>
+    </header>
+    <div class="well center-block">
+      <!-- QUOTE & SOURCE -->
+      <span class="fa fa-quote-left"></span>&nbsp;<q></q>&nbsp;<span class="fa fa-quote-right"></span>
+      <div id="source"></div>
+      <!-- TWEET BUTTON -->
+      <div class="text-right">
+        <a class="btn" href="#" target="_blank" id="tweet"><span class="fa fa-twitter fa-lg"></span> Tweet</a>
+      </div>
+    </div>
+    <!-- NEW QUOTE BUTTON -->
+    <button type="button" class="btn btn-lg" id="new-quote">
+      <span class="fa-stack fa-2x">
+        <span class="fa fa-circle fa-stack-2x"></span>
+        <span class="fa fa-repeat fa-stack-1x fa-inverse"></span>
+      </span>
+      <span class="sr-only">load new quote</span>
+    </button>
+    <!-- FOOTER -->
+    <footer>Coded by <a href="../portfolio" target="_blank">Autumn Bullard</a></footer>
+  </div>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
   <script src="js/script.js"></script>
 </body>
