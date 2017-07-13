@@ -1,4 +1,4 @@
-$.getJSON('../quotes.json', function(data) {
+$.getJSON('js/quotes.json', function(data) {
 
   function newQuote() {
     var randomQuote = data[Math.floor(Math.random() * data.length)];
