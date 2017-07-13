@@ -1,0 +1,90 @@
+html {
+  box-sizing: border-box;
+  height: 100%;
+}
+
+body {
+  color: #0b6b74;
+  min-height: 100%;
+  padding-bottom: 30px;
+  position: relative;
+}
+
+h1 {
+  font: 900 2.8rem Calligraffitti, cursive;
+  letter-spacing: 4px;
+  margin: 6% 0 3%;
+}
+
+.well {
+  background-color: #bef5fa;
+  border: none;
+  font-size: 1.2em;
+  letter-spacing: 1px;
+  line-height: 26px;
+  max-width: 700px;
+}
+
+q,
+q::before,
+q::after {
+  content: none;
+  font-weight: 500;
+}
+
+#source {
+  font-style: italic;
+  margin-top: 5%;
+}
+
+#tweet,
+#tweet:visited,
+#tweet:active {
+  background-color: #0e818b;
+  border-radius: 20px;
+  color: #fff;
+  font-weight: 500;
+  letter-spacing: 1px;
+  margin-top: 5%;
+  outline: none;
+}
+
+#tweet:hover {
+  background-color: #0b6b74;
+}
+
+#new-quote,
+#new-quote:active,
+#new-quote:focus {
+  background: transparent;
+  box-shadow: none;
+  color: #0e818b;
+  margin-bottom: 5%;
+  outline: none;
+  padding: 0;
+}
+
+#new-quote:hover {
+  color: #0b6b74;
+}
+
+footer {
+  background-color: #bef5fa;
+  bottom: 0;
+  color: #000;
+  font-size: 1.2rem;
+  left: 0;
+  letter-spacing: 2px;
+  margin: 0;
+  padding: 6px 0;
+  position: absolute;
+  right: 0;
+  width: 100%;
+}
+
+footer a,
+footer a:visited,
+footer a:active,
+footer a:hover {
+  color: #0e818b;
+}
