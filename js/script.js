@@ -16,5 +16,5 @@ $.ajax({
     newQuote();
   });
 }).fail(function() {
-  $('.well').html('<div class="alert alert-warning text-center"><span class="fa fa-warning fa-lg fa-fw"></span> Unable to load random quote</div>');
+  $('.well').html('<div class="alert alert-warning text-center"><span class="fa fa-warning fa-lg fa-fw"></span> Unable to load a new quote</div>');
 });
