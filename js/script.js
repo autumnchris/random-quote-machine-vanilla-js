@@ -15,4 +15,6 @@ $.ajax({
   $('#new-quote').click(function() {
     newQuote();
   });
+}).fail(function() {
+  $('.well').html(('<div class="alert alert-warning text-center"><span class="fa fa-warning fa-lg fa-fw"></span> Unable to load random quote</div>'));
 });
