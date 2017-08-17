@@ -37,40 +37,39 @@ q::after {
   margin-top: 5%;
 }
 
+.alert-warning {
+  margin: 3%;
+}
+
+.btn,
+.btn:visited,
+.btn:active,
+.btn:focus {
+  background-color: #0e818b;
+  color: #fff;
+}
+
+.btn:hover {
+  background-color: #0b6b74;
+  color: #fff;
+}
+
 #tweet,
 #tweet:visited,
-#tweet:active {
-  background-color: #0e818b;
+#tweet:active,
+#tweet:focus {
   border-radius: 20px;
-  color: #fff;
   font-weight: 500;
   letter-spacing: 1px;
   margin-top: 5%;
-  outline: none;
-}
-
-#tweet:hover {
-  background-color: #0b6b74;
-}
-
-.alert-warning {
-  margin: 30px;
 }
 
 #new-quote,
 #new-quote:active,
 #new-quote:focus {
-  background: transparent;
-  border-radius: 50px;
-  box-shadow: none;
-  color: #0e818b;
+  border-radius: 40px;
   margin-bottom: 5%;
-  outline: none;
-  padding: 0;
-}
-
-#new-quote:hover {
-  color: #0b6b74;
+  padding: 12px 14px;
 }
 
 footer {
@@ -89,7 +88,8 @@ footer {
 
 footer a,
 footer a:visited,
+footer a:hover,
 footer a:active,
-footer a:hover {
+footer a:focus {
   color: #0b6b74;
 }
