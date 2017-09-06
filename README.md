@@ -11,7 +11,7 @@ My Build a Random Quote Machine project for the Front End Development Certificat
 * JavaScript
 * CSS3
 * HTML5
-* [Bootstrap.CSS](http://getbootstrap.com/css)
+* [Bootstrap CSS](http://getbootstrap.com/css)
 
 ## Other Tools Used
 * [Font Awesome](http://fontawesome.io)
