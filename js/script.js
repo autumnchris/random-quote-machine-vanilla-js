@@ -1,6 +1,6 @@
 $.ajax({
   dataType: 'json',
-  url: 'js/quotes.min.json'
+  url: 'db/quotes.min.json'
 }).done(function(data) {
 
   function newQuote() {
