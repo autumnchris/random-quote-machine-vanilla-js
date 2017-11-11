@@ -1,6 +1,6 @@
 # Random Quote Machine (jQuery)
 
-My Build a Random Quote Machine project for the Front End Development Certification on [Free Code Camp](https://www.freecodecamp.org) made with jQuery.
+My project for the [Build a Random Quote Machine challenge](https://www.freecodecamp.org/challenges/build-a-random-quote-machine) as part of the curriculum for the Front End Development Certification on [Free Code Camp](https://www.freecodecamp.org). Made with jQuery.
 
 ---
 
