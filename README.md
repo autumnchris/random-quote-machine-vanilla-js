@@ -4,6 +4,10 @@ My project for the [Build a Random Quote Machine challenge](https://www.freecode
 
 ---
 
+## User Stories
+1. I can click a button to show me a new random quote.
+2. I can press a button to tweet out a quote.
+
 ## Built With
 * JSON
 * AJAX
@@ -11,9 +15,7 @@ My project for the [Build a Random Quote Machine challenge](https://www.freecode
 * JavaScript
 * CSS3
 * HTML5
-* [Bootstrap 3 CSS](https://getbootstrap.com/docs/3.3/css)
-
-## Other Tools Used
+* [Bootstrap](https://getbootstrap.com)
 * [Font Awesome](http://fontawesome.io)
 * [Google Fonts](https://fonts.google.com)
 
