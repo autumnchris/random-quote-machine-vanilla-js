@@ -21,4 +21,4 @@ My project for the [Build a Random Quote Machine challenge](https://www.freecode
 
 ## Demo
 
-View project [here](https://autumnchris.github.io/random-quote-machine-jquery).
+View project demo at [https://autumnchris.github.io/random-quote-machine-jquery](https://autumnchris.github.io/random-quote-machine-jquery).
