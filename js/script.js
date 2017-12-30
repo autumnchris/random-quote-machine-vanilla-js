@@ -22,5 +22,5 @@ $.ajax({
     newQuote();
   });
 }).fail(function() {
-  $('.well').html('<div class="alert alert-warning"><span class="fa fa-warning fa-lg fa-fw"></span> Unable to load a new quote.</div>');
+  $('.container-fluid').html('<div class="alert alert-warning"><span class="fa fa-warning fa-lg fa-fw"></span> Unable to load a new quote.</div>');
 });

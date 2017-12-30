@@ -42,10 +42,6 @@ q::after {
   margin-top: 5%;
 }
 
-.alert-warning {
-  margin: 3%;
-}
-
 .btn,
 .btn:visited,
 .btn:active,
@@ -97,4 +93,8 @@ footer a:hover,
 footer a:active,
 footer a:focus {
   color: #0b6b74;
+}
+
+.alert-warning {
+  margin: 3%;
 }
