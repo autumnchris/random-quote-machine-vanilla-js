@@ -3,7 +3,7 @@ $.ajax({
   url: 'db/quotes.min.json'
 }).done(function(data) {
 
-  function newQuote() {
+  function getQuote() {
     var randomQuote = data[Math.floor(Math.random() * data.length)];
     var quoteDiv = '<span class="fa fa-quote-left"></span>' +
     '<q> ' + randomQuote.quote + ' </q>' +
@@ -16,10 +16,10 @@ $.ajax({
     $('#tweet').attr('href', 'https://twitter.com/intent/tweet?text=' + '\"' + randomQuote.quote + '\"' + ' — ' + randomQuote.source);
   }
 
-  newQuote();
+  getQuote();
 
   $('#new-quote').click(function() {
-    newQuote();
+    getQuote();
   });
 }).fail(function() {
   $('.container-fluid').html('<div class="alert alert-warning"><span class="fa fa-warning fa-lg fa-fw"></span> Unable to load a new quote.</div>');
