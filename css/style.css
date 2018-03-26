@@ -40,7 +40,7 @@ q::after {
   font-weight: 500;
 }
 
-#source {
+.source {
   font-style: italic;
   margin-top: 5%;
 }
@@ -58,19 +58,19 @@ q::after {
   color: #fff;
 }
 
-#tweet,
-#tweet:visited,
-#tweet:active,
-#tweet:focus {
+.tweet,
+.tweet:visited,
+.tweet:active,
+.tweet:focus {
   border-radius: 20px;
   font-weight: 500;
   letter-spacing: 1px;
   margin-top: 5%;
 }
 
-#new-quote,
-#new-quote:active,
-#new-quote:focus {
+.new-quote,
+.new-quote:active,
+.new-quote:focus {
   border-radius: 100%;
   margin-bottom: 5%;
   padding: 12px 14px;

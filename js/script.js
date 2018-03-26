@@ -8,17 +8,17 @@ $.ajax({
     var quoteDiv = '<span class="fa fa-quote-left"></span>' +
     '<q> ' + randomQuote.quote + ' </q>' +
     '<span class="fa fa-quote-right"></span>' +
-    '<div id="source">&mdash; ' + randomQuote.source + '</div>' +
+    '<div class="source">&mdash; ' + randomQuote.source + '</div>' +
     '<div class="text-right">' +
-      '<a class="btn" href="" target="_blank" id="tweet"><span class="fa fa-twitter fa-lg"></span> Tweet</a>' +
+      '<a class="btn tweet" href="" target="_blank"><span class="fa fa-twitter fa-lg"></span> Tweet</a>' +
     '</div>';
     $('.well').html(quoteDiv);
-    $('#tweet').attr('href', 'https://twitter.com/intent/tweet?text=' + '\"' + randomQuote.quote + '\"' + ' — ' + randomQuote.source);
+    $('.tweet').attr('href', 'https://twitter.com/intent/tweet?text=' + '\"' + randomQuote.quote + '\"' + ' — ' + randomQuote.source);
   }
 
   getQuote();
 
-  $('#new-quote').click(function() {
+  $('.new-quote').click(function() {
     getQuote();
   });
 }).fail(function() {
