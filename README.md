@@ -15,7 +15,6 @@ My project for the [Build a Random Quote Machine challenge](https://www.freecode
 * JavaScript
 * CSS3
 * HTML5
-* [Bootstrap](https://getbootstrap.com)
 * [Font Awesome](https://fontawesome.com)
 * [Google Fonts](https://fonts.google.com)
 

@@ -2,31 +2,29 @@
 <html lang="en">
   <head>
     <meta charset="utf-8">
-    <title>Random Quote Machine (jQuery)</title>
+    <title>Random Quote Machine</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.8/css/all.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Calligraffitti">
+    <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/style.css">
   </head>
 
   <body>
-    <div class="container-fluid text-center">
-      <!-- HEADER -->
-      <header>
-        <h1>Inspirational Quotes</h1>
-      </header>
-      <main>
-        <!-- QUOTE, SOURCE, & TWEET BUTTON -->
-        <div class="well center-block"></div>
-        <!-- NEW QUOTE BUTTON -->
-        <button type="button" class="btn btn-lg new-quote" title="New Quote">
-          <span class="fa fa-repeat fa-2x"></span>
-          <span class="sr-only">load new quote</span>
-        </button>
-      </main>
-      <!-- FOOTER -->
-      <footer>Coded by <a href="../portfolio" target="_blank">Autumn Bullard</a></footer>
+    <!-- HEADER -->
+    <header>
+      <h1>Inspirational Quotes</h1>
+    </header>
+    <main>
+      <!-- QUOTE, SOURCE, & TWEET BUTTON -->
+      <div class="card"></div>
+      <!-- NEW QUOTE BUTTON -->
+      <button type="button" class="new-quote" aria-label="load new quote" title="New Quote">
+        <span class="fa fa-redo-alt fa-2x"></span>
+      </button>
+    </main>
+    <!-- FOOTER -->
+    <footer>Coded by <a href="../portfolio" target="_blank">Autumn Bullard</a></footer>
     </div>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script src="js/script.js"></script>
