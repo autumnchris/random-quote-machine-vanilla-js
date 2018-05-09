@@ -8,10 +8,6 @@ html {
   background: linear-gradient(120deg, rgba(190, 245, 250, 0.2), #fff) fixed;
 }
 
-body {
-   text-align: center;
-}
-
 h1 {
   color: #0b6b74;
   font-family: Calligraffitti, cursive;
