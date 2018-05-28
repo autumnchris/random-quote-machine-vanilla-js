@@ -9,12 +9,12 @@ function getQuote() {
   <div class="tweet-button">
     <a class="tweet" href="" target="_blank"><span class="fab fa-twitter"></span> Tweet</a>
   </div>`;
-  $('.card').html(quoteDiv);
-  $('.tweet').attr('href', `https://twitter.com/intent/tweet?text="${randomQuote.quote}" — ${randomQuote.source}`);
+  document.querySelector('.card').innerHTML = quoteDiv;
+  document.querySelector('.tweet').setAttribute('href', `https://twitter.com/intent/tweet?text="${randomQuote.quote}" — ${randomQuote.source}`);
 }
 
 getQuote();
 
-$('.new-quote').click(() => {
+document.querySelector('.new-quote').addEventListener('click', () => {
   getQuote();
 });
