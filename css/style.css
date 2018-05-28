@@ -101,14 +101,3 @@ footer a:active,
 footer a:focus {
   color: #0b6b74;
 }
-
-.error-message {
-  background: #fcf8e3;
-  border: 1px solid #faebcc;
-  border-radius: 3px;
-  color: #8a6d3b;
-  line-height: 20px;
-  margin: 30px auto;
-  max-width: 500px;
-  padding: 15px 10px;
-}

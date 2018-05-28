@@ -9,10 +9,8 @@ My project for the [Build a Random Quote Machine challenge](https://www.freecode
 2. I can press a button to tweet out a quote.
 
 ## Built With
-* JSON
-* AJAX
-* [jQuery](https://jquery.com)
 * JavaScript
+* [jQuery](https://jquery.com)
 * CSS3
 * HTML5
 * [Font Awesome](https://fontawesome.com)
