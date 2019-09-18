@@ -106,7 +106,7 @@ function getQuote() {
   </div>
   <div class="source">&mdash; ${randomQuote.source}</div>
   <div class="tweet-button">
-    <a class="tweet" href="" target="_blank"><span class="fab fa-twitter"></span> Tweet</a>
+    <a class="tweet twitter-share-button" href="" target="_blank" data-size="large"><span class="fab fa-twitter"></span> Tweet</a>
   </div>`;
   document.querySelector('.card').innerHTML = quoteDiv;
   document.querySelector('.tweet').setAttribute('href', `https://twitter.com/intent/tweet?text="${randomQuote.quote}" — ${randomQuote.source}`);
