@@ -1,11 +1,11 @@
 *:focus {
-  box-shadow: 0 0 4px 4px rgba(65, 180, 250, 0.8);
+  box-shadow: 0 0 4px 4px hsla(203, 95%, 62%, 0.8);
   outline: none;
 }
 
 html {
-  background: #fff;
-  background: linear-gradient(120deg, hsla(185, 83%, 86%, 0.2), #fff) fixed;
+  background: hsl(0, 0%, 100%);
+  background: linear-gradient(120deg, hsla(185, 83%, 86%, 0.2), hsl(0, 0%, 100%)) fixed;
 }
 
 h1 {
@@ -57,7 +57,7 @@ q {
 .tweet:focus {
   background: hsl(185, 83%, 30%);
   border-radius: 20px;
-  color: #fff;
+  color: hsl(0, 0%, 100%);
   font-size: 0.8rem;
   padding: 8px 10px;
 }
@@ -72,7 +72,7 @@ q {
 .new-quote:focus {
   background: hsl(185, 83%, 30%);
   border-radius: 100%;
-  color: #fff;
+  color: hsl(0, 0%, 100%);
   margin-bottom: 5%;
   padding: 14px;
 }
