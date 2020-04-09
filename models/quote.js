@@ -4,7 +4,8 @@ const Schema = mongoose.Schema;
 const QuoteSchema = Schema({
   quote: {
     type: String,
-    required: true
+    required: true,
+    unique: true
   },
   source: {
     type: String,
