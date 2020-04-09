@@ -5,12 +5,29 @@ My project for the [Build a Random Quote Machine challenge](https://learn.freeco
 ---
 
 ## Built With
+* [Express.js](https://expressjs.com)
+* [Mongoose](https://mongoosejs.com)
+* [MongoDB](https://www.mongodb.com)
 * JavaScript
 * CSS3
-* HTML5
+* [axios](https://github.com/axios/axios)
+* AJAX
+* [EJS](https://ejs.co)
+* [Normalize.css](https://necolas.github.io/normalize.css)
 * [Font Awesome](https://fontawesome.com)
 * [Google Fonts](https://fonts.google.com)
 
 ## Demo
 
-View project demo at [https://autumnchris.github.io/random-quote-machine-vanilla-js](https://autumnchris.github.io/random-quote-machine-vanilla-js).
+View project demo at [https://autumnchris-quotes-vanilla-js.herokuapp.com](https://autumnchris-quotes-vanilla-js.herokuapp.com).
+
+## Installation
+
+```
+$ git clone https://github.com/autumnchris/random-quote-machine-vanilla-js.git
+$ cd random-quote-machine-vanilla-js
+$ npm install
+$ npm start
+```
+
+Go to `http://localhost:3000`.

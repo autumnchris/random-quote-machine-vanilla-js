@@ -1,0 +1,25 @@
+{
+  "name": "random-quote-machine-vanilla-js",
+  "version": "1.0.0",
+  "description": "My project for the Build a Random Quote Machine challenge as part of the curriculum for the Front End Libraries Certification on freeCodeCamp. Built with vanilla JS.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/autumnchris/random-quote-machine.git"
+  },
+  "author": "autumnchris",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/autumnchris/random-quote-machine/issues"
+  },
+  "homepage": "https://autumnchris-quotes-vanilla-js.herokuapp.com",
+  "dependencies": {
+    "ejs": "^3.0.1",
+    "express": "^4.17.1",
+    "mongoose": "^5.9.4"
+  }
+}
