@@ -1,3 +1,5 @@
+/* BASE PAGE STYLES */
+
 html {
   background: transparent;
   box-sizing: border-box;
@@ -16,6 +18,27 @@ body {
   position: relative;
 }
 
+header {
+  padding-top: 6%;
+}
+
+main {
+  padding-bottom: 6rem;
+}
+
+footer {
+  background: hsl(185, 83%, 86%);
+  background: linear-gradient(to right, hsl(185, 83%, 86%), hsl(185, 83%, 95%)) fixed;
+  bottom: 0;
+  font-size: 0.8rem;
+  left: 0;
+  letter-spacing: 2px;
+  padding: 14px 0;
+  position: absolute;
+  right: 0;
+  width: 100%;
+}
+
 h1,
 h2,
 h3,
@@ -24,6 +47,20 @@ h5,
 h6 {
   box-sizing: border-box;
   margin-top: 0;
+}
+
+/* BASE ELEMENT STYLES */
+
+div,
+header,
+main,
+footer,
+p,
+button,
+button:hover,
+button:active,
+button:focus {
+  box-sizing: border-box;
 }
 
 a,
@@ -37,18 +74,6 @@ a:focus {
 
 a:hover {
   text-decoration: underline;
-}
-
-div,
-header,
-main,
-footer,
-p,
-button,
-button:hover,
-button:active,
-button:focus {
-  box-sizing: border-box;
 }
 
 a:focus,
@@ -88,9 +113,7 @@ textarea:focus,
   padding: 15px 10px;
 }
 
-header {
-  padding-top: 6%;
-}
+/* SPECIFIC ELEMENT STYLES */
 
 h1 {
   color: hsl(185, 83%, 25%);
@@ -99,10 +122,6 @@ h1 {
   font-weight: 900;
   letter-spacing: 4px;
   line-height: 1.45;
-}
-
-main {
-  padding-bottom: 6rem;
 }
 
 .card {
@@ -164,17 +183,4 @@ main {
   border: 1px solid hsl(349, 96%, 90%);
   color: hsl(349, 96%, 26%);
   display: none;
-}
-
-footer {
-  background: hsl(185, 83%, 86%);
-  background: linear-gradient(to right, hsl(185, 83%, 86%), hsl(185, 83%, 95%)) fixed;
-  bottom: 0;
-  font-size: 0.8rem;
-  left: 0;
-  letter-spacing: 2px;
-  padding: 14px 0;
-  position: absolute;
-  right: 0;
-  width: 100%;
 }
