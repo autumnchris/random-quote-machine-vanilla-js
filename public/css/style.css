@@ -98,7 +98,9 @@ textarea:focus,
   color: hsl(0, 0%, 100%);
   cursor: pointer;
   font-weight: 600;
+  line-height: normal;
   padding: 10px 14px;
+  width: auto;
 }
 
 .button:hover {
