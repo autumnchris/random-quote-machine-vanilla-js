@@ -6,12 +6,12 @@
       <h1><%= mainHeading %></h1>
     </header>
     <main>
-      <div class="card"></div>
-      <p class="message error-message"><span class="fa fa-exclamation-circle fa-lg fa-fw"></span> Unable to load a new quote at this time.</p>
-      <button type="button" class="button new-quote">New Quote</button>
+      <div id="app"></div>
     </main>
     <%- include ('./partials/footer') -%>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.18.0/axios.min.js"></script>
-    <script src="/js/script.js"></script>
+    <script src="/public/bundle.js"></script>
+    <noscript>
+      <p class="message info-message"><span class="fa fa-info-circle fa-lg fa-fw"></span> This site uses JavaScript. Please enable JavaScript in your browser.</p>
+    </noscript>
   </body>
 </html>

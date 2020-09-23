@@ -4,7 +4,8 @@
   "description": "My project for the Build a Random Quote Machine challenge as part of the curriculum for the Front End Libraries Certification on freeCodeCamp. Built with vanilla JS.",
   "main": "server.js",
   "scripts": {
-    "start": "node server",
+    "build": "webpack --mode production",
+    "start": "npm run build && node server",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -18,9 +19,23 @@
   },
   "homepage": "https://autumnchris-quotes-vanilla-js.herokuapp.com",
   "dependencies": {
+    "axios": "^0.20.0",
+    "babel-core": "^6.26.3",
+    "babel-loader": "^7.1.5",
+    "babel-preset-env": "^1.7.0",
+    "css-loader": "^4.3.0",
     "dotenv": "^8.2.0",
     "ejs": "^3.0.1",
     "express": "^4.17.1",
-    "mongoose": "^5.9.4"
+    "mini-css-extract-plugin": "^0.11.1",
+    "mongoose": "^5.9.4",
+    "node-sass": "^4.14.1",
+    "normalize.css": "^5.0.0",
+    "sass-loader": "^10.0.2",
+    "style-loader": "^1.2.1",
+    "webpack": "^4.44.1",
+    "webpack-cli": "^3.3.12",
+    "webpack-dev-middleware": "^3.7.2",
+    "webpack-hot-middleware": "^2.25.0"
   }
 }
