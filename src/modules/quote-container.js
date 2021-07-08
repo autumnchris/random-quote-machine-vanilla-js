@@ -31,7 +31,7 @@ const QuoteContainer = (() => {
       </div>
       <div class="source">&mdash; ${randomQuote.source}</div>
       <div class="tweet-container">
-        <a class="button tweet" href="$https://twitter.com/intent/tweet?text=${randomQuote.quote} — ${randomQuote.source}" target="_blank"><span class="fab fa-twitter fa-fw"></span> Tweet</a>
+        <a class="button tweet" href="https://twitter.com/intent/tweet?text=${randomQuote.quote} — ${randomQuote.source}" target="_blank"><span class="fab fa-twitter fa-fw"></span> Tweet</a>
       </div>
     </div>
     <button type="button" class="button new-quote">New Quote</button>`;
