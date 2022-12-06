@@ -16,7 +16,7 @@ const QuoteContainer = (() => {
   function renderErrorMessage() {
     const errorMessage = document.createElement('p');
     errorMessage.classList.add('message', 'error-message');
-    errorMessage.innerHTML = `<span class="fa fa-exclamation-circle fa-lg fa-fw"></span> Unable to load a new quote at this time.`;
+    errorMessage.innerHTML = `<span class="fa fa-exclamation-circle fa-lg fa-fw" aria-hidden="true"></span> Unable to load a new quote at this time.`;
 
     document.querySelector('main').appendChild(errorMessage);
   }
@@ -25,13 +25,13 @@ const QuoteContainer = (() => {
     document.querySelector('main').innerHTML = `
     <div class="quote-container">
       <div class="quote">
-        <span class="fa fa-quote-left"></span>
+        <span class="fa fa-quote-left" aria-hidden="true"></span>
         <q> ${randomQuote.quote} </q>
-        <span class="fa fa-quote-right"></span>
+        <span class="fa fa-quote-right" aria-hidden="true"></span>
       </div>
       <div class="source">&mdash; ${randomQuote.source}</div>
       <div class="tweet-container">
-        <a class="button tweet" href="https://twitter.com/intent/tweet?text=${randomQuote.quote} — ${randomQuote.source}" target="_blank"><span class="fab fa-twitter fa-fw"></span> Tweet</a>
+        <a class="button tweet" href="https://twitter.com/intent/tweet?text=${randomQuote.quote} — ${randomQuote.source}" target="_blank"><span class="fab fa-twitter fa-fw" aria-hidden="true"></span> Tweet</a>
       </div>
     </div>
     <button type="button" class="button new-quote">New Quote</button>`;
