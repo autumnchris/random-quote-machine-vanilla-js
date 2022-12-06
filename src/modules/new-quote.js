@@ -5,7 +5,7 @@ const NewQuote = (() => {
   let quotes = [];
 
   function fetchQuotes() {
-    axios.get('https://autumnchris-quotes.herokuapp.com/api/quotes').then(response => {
+    axios.get('https://autumnchris-quotes-api.onrender.com/api/quotes').then(response => {
       quotes = response.data;
       QuoteContainer.removeLoadingSpinner();
       getQuote();
