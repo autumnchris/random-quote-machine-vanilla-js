@@ -1,5 +1,5 @@
-import { NewQuote } from './New-Quote';
-import { QuoteContainer } from './Quote-Container';
+import { NewQuote } from './NewQuote';
+import { QuoteContainer } from './QuoteContainer';
 
 const App = (() => {
 

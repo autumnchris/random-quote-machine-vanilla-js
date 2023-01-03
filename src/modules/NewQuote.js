@@ -1,5 +1,5 @@
 import axios from 'axios';
-import { QuoteContainer } from './Quote-Container';
+import { QuoteContainer } from './QuoteContainer';
 
 const NewQuote = (() => {
   let quotes = [];
