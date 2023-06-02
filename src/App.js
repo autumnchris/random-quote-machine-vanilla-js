@@ -1,6 +1,6 @@
 import Header from './modules/Header';
 import Footer from './modules/Footer';
-import LoadingSpinner from './modules/LoadingSpinner';
+//import LoadingSpinner from './modules/LoadingSpinner';
 import QuoteContainer from './modules/QuoteContainer';
 
 
@@ -8,10 +8,9 @@ class App {
   constructor() {
     this.header = new Header();
     this.footer = new Footer();
-    this.loadingSpinner = new LoadingSpinner();
+    //this.loadingSpinner = new LoadingSpinner();
     this.quoteContainer = new QuoteContainer();
     this.renderApp();
-    this.events();
   }
 
   // Event listeners
@@ -27,8 +26,9 @@ class App {
     this.header.renderHeader('#app');
     this.renderMain('#app');
     this.footer.renderFooter('#app');
-    this.loadingSpinner.renderLoadingSpinner('main');
+    //this.loadingSpinner.renderLoadingSpinner('main');
     this.quoteContainer.fetchQuotes();
+    this.events();
   }
 
   renderMain(location) {

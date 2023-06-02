@@ -7,9 +7,11 @@ class QuoteContainer {
     this.loadingSpinner = new LoadingSpinner();
     this.errorMessage = new ErrorMessage();
     this.quotes = [];
+    this.randomQuote = null;
   }
   
   fetchQuotes() {
+    this.loadingSpinner.renderLoadingSpinner('main');
     axios.get('https://autumnchris-quotes-api.onrender.com/api/quotes').then(response => {
       this.quotes = response.data;
       this.loadingSpinner.removeLoadingSpinner('main');
@@ -22,10 +24,17 @@ class QuoteContainer {
 
   getNewQuote() {
     const randomQuote = this.quotes[Math.floor(Math.random() * this.quotes.length)];
-    this.removeQuoteContainer('main');
-    this.removeNewQuoteButton('main');
-    this.renderQuoteContainer(randomQuote, 'main');
-    this.renderNewQuoteButton('main');
+    
+    if (!this.randomQuote || this.randomQuote._id !== randomQuote._id) {
+      this.randomQuote = randomQuote;
+      this.removeQuoteContainer('main');
+      this.removeNewQuoteButton('main');
+      this.renderQuoteContainer(randomQuote, 'main');
+      this.renderNewQuoteButton('main');
+    }
+    else {
+      this.getNewQuote();
+    }
   }
 
   // DOM methods
