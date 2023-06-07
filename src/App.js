@@ -1,6 +1,5 @@
 import Header from './modules/Header';
 import Footer from './modules/Footer';
-//import LoadingSpinner from './modules/LoadingSpinner';
 import QuoteContainer from './modules/QuoteContainer';
 
 
@@ -8,7 +7,6 @@ class App {
   constructor() {
     this.header = new Header();
     this.footer = new Footer();
-    //this.loadingSpinner = new LoadingSpinner();
     this.quoteContainer = new QuoteContainer();
     this.renderApp();
   }
