@@ -39,10 +39,11 @@ class QuoteContainer {
 
   // DOM methods
   renderNewQuoteButton(location) {
-    const newQuoteButton = document.createElement('button');
-    newQuoteButton.setAttribute('type', 'button');
-    newQuoteButton.classList.add('button', 'new-quote');
-    newQuoteButton.innerHTML = `New Quote`;
+    const newQuoteButton = document.createElement('div');
+    newQuoteButton.classList.add('button-group');
+    newQuoteButton.innerHTML = `
+      <button typw="button" class="button new-quote">New Quote</button>
+    `;
     document.querySelector(location).appendChild(newQuoteButton);
   }
 
@@ -56,14 +57,11 @@ class QuoteContainer {
     quoteContainer.classList.add('quote-container');
     quoteContainer.innerHTML = `
       <div class="quote">
-        <span class="fa fa-quote-left" aria-hidden="true"></span>
+        <span class="fa-solid fa-quote-left fa-lg" aria-hidden="true"></span>
         <q> ${randomQuote.quote} </q>
-        <span class="fa fa-quote-right" aria-hidden="true"></span>
+        <span class="fa-solid fa-quote-right fa-lg" aria-hidden="true"></span>
       </div>
       <div class="source">&mdash; ${randomQuote.source}</div>
-      <div class="tweet-container">
-        <a class="button tweet" href="https://twitter.com/intent/tweet?text=${randomQuote.quote} — ${randomQuote.source}" target="_blank"><span class="fab fa-twitter fa-fw" aria-hidden="true"></span> Tweet</a>
-      </div>
     `;
     document.querySelector(location).appendChild(quoteContainer);
   }

@@ -24,7 +24,6 @@ class App {
     this.header.renderHeader('#app');
     this.renderMain('#app');
     this.footer.renderFooter('#app');
-    //this.loadingSpinner.renderLoadingSpinner('main');
     this.quoteContainer.fetchQuotes();
     this.events();
   }
